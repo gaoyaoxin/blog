@@ -5,30 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>QuickRoute 解法 by 高垚鑫</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/nav.css">
     <link rel="shortcut icon" href="stylesheets/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 <body>
 <div class="wrapper">
-    <header>
-        <h1>QuickRoute 解法</h1>
-        <p>对应 Apple app store 里的 <a href="https://itunes.apple.com/app/quick-route-puzzle-that-requires/id882744410?mt=8">QuickRoute 游戏</a></p>
-        <p>&nbsp;</p>
-        <p>解题页面维护：
-            <a href="https://github.com/gaoyaoxin">@高垚鑫</a>,
-        </p>
-        
-    </header>
+
+
+
+
+    <div class="bar">
+    <ul class="nav">
+        <li><a href="/index.html"><img src="home.png" /></a></li>
+        <li><a href="/C.html">Certificates</a></li>
+        <li><a href="/D.html">Design</a></li>
+        <li><a href="/S.html">Social Practice</a></li>
+        <li><a href="/V.html">Volunteer</a></li>
+    </ul>
+    <div class="searchbox">
+    <form class="search_box"  action="<?php bloginfo('home'); ?>/" target="_blank">
+    <input type="text" value="Search" name="s" class="search" onfocus="if (this.value == 'Search' ) {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}"/>
+
+
+
+
+
     <section id="mdContainer" data-md="QuickRoute" class="euclidea3">
     </section>
 </div>
 <footer>
-    <p>Project maintained by <a href="https://github.com/gaoyaoxin">@高垚鑫</a></p>
-    <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    <p>This website is made possible by the model of <a href="https://github.com/MathsFans/Euclidea">Euclidea Solvings</a></p>
+    <p>By <a href="https://github.com/gaoyaoxin">高垚鑫</a></p>
+    <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/MathsFans/Euclidea">Euclidea</a></p>
 </footer>
 </body>
 <script src="js/jquery.js"></script>
+<script src="js/jquery-1.8.2.min.js"></script>
 <script src="js/remarkable.min.js"></script>
 <script src="js/pageparser.js"></script>
+<script src="js/searchbox.js"></script>
 </html>
