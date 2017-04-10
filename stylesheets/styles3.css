@@ -409,5 +409,5 @@ ul,li {list-style:none; margin:0; padding:0;}
 //search图片和光标的距离
 
 
-border:1px #ddd solid; background: url(search.png)  no-repeat; outline: none; width:88px;
+border:1px #ddd solid; background: url="search.png"  no-repeat; outline: none; width:88px;
   border-radius: 20px;}
