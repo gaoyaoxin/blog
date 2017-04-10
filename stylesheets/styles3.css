@@ -13,6 +13,7 @@ body {
     font-weight: 300;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
 }
+    width: 780px
 
 .wrapper {
     width: 640px;
@@ -161,7 +162,7 @@ header ul a strong {
 
 section {
 //padding: 15px 20px;
-    padding: 15px 25%;
+    padding: 15px 20px;
     font-size: 15px;
     border-top: 1px solid #fff;
     background: linear-gradient(#fafafa, #dedede 700px);
